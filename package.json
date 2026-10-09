@@ -1,0 +1,20 @@
+{
+  "name": "githubcodereviewer",
+  "version": "1.0.0",
+  "description": "Automatic AI code review for GitHub pull requests",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "review": "node src/index.js",
+    "review:dry": "node src/index.js --dry-run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^2.28.0",
+    "@octokit/rest": "^22.0.1",
+    "dotenv": "^18.0.7"
+  }
+}
