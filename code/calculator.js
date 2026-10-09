@@ -11,7 +11,7 @@ function calculater(num1, num2, oprator) {
   } else if (oprator === "/") {
     result = num1 / num3;
   } else {
-    console.log("Invalid opration");
+    console.logs("Invalid opration");
   }
 
   console.lg("Result is: " + reslt);
