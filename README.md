@@ -58,7 +58,7 @@ jobs:
   review:
     runs-on: ubuntu-latest
     steps:
-      - uses: <your-github-user>/githubcodereviewer@main
+      - uses: tarunkatariaonline/ai-githubcodereviewer@main
         with:
           gemini-api-key: ${{ secrets.GEMINI_API_KEY }}
 ```
